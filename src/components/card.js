@@ -13,7 +13,7 @@ function Card() {
         )
     })
     return (       
-        <div className="flex space-x-4 pl-4 overflow-x-scroll">            
+        <div className="flex space-x-4 pl-4 overflow-x-scroll md:overflow-x-hidden lg:overflow-x-hidden">            
             {cards}
         </div>
 
